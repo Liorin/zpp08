@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module>
+    <inherits name="com.google.gwt.user.User"/>
+    <inherits name='com.google.gwt.user.theme.standard.Standard'/>
+    <inherits name="eeserver.EJB"/>
+    <inherits name="java.IO"/>
+    <inherits name="javax.PERSISTENCE"/>
+    <inherits name='com.extjs.gxt.ui.GXT'/>
+
+    <entry-point class="org.eeint.client.MainEntryPoint"/>
+
+	<!-- Do not define servlets here, use web.xml -->
+    <stylesheet src='css/ext-all.css'/>
+    <stylesheet src='eeint.css'/>
+    <stylesheet src='Resources.css'/>
+
+    <inherits name="com.google.gwt.i18n.I18N"/>
+    <extend-property name="locale" values="en"/>
+    <extend-property name="locale" values="pl"/>
+    <extend-property name="locale" values="es"/>
+    <extend-property name="locale" values="de"/>
+
+</module>

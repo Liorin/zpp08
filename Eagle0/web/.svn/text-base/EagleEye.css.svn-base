@@ -1,0 +1,41 @@
+/* 
+    Document   : EagleEye
+    Created on : 2008-11-18, 22:34:12
+    Author     : me2
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+/* 
+   TODO customize this sample style
+   Syntax recommendation http://www.w3.org/TR/REC-CSS2/
+*/
+
+root { 
+    display: block;
+}
+
+.Label {
+    color: white;
+    display: block;
+    width: 450px;
+    padding: 2px 4px;
+    text-decoration: none;
+    text-align: center;
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid;
+    border-color: black;
+    background-color: #cc9900;
+    text-decoration: none;
+  border-top-color: #000066;
+  border-bottom-color: #000066;
+  border-left-color: #000066;
+  border-right-color: #000066;
+  font-style: normal;
+  border-top-style: outset;
+  border-bottom-style: outset;
+  border-left-style: outset;
+  border-right-style: outset;
+  background-position: center;
+}

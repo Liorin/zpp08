@@ -1,0 +1,36 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package eeserver.beans;
+
+import eeserver.common.*;
+import eeserver.persistence.*;
+import javax.ejb.Local;
+import java.util.List;
+
+/**
+ * Oh tutaj będą kwestie zaproszeń :)
+ * @author maciek
+ */
+@Local
+public interface UserLocal {
+
+    public eeUser addUser(String name, String surname, String login,String password, String email, String nip, String adress, eeAccount account)
+            throws UserException;
+    
+    /*Czy te metody powinny tu być?*/
+    public List<eeNode> getAllTasks(eeUser user);
+
+    public List<eeNode> getTasksForProject(eeUser user, eeProject project);
+
+    public List<eeProject> getAccountProjects(eeAccount account);
+
+    public String login(String login, String password) throws LoginException  ;
+
+
+    Boolean changePassword(String newPassword, String oldPassword);
+    
+    
+}

@@ -1,0 +1,189 @@
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.tab-size=8
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.text-limit-width=80
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.usedProfile=default
+build.classes.dir=${build.web.dir}/WEB-INF/classes
+build.classes.excludes=**/*.java,**/*.form
+build.dir=build
+build.generated.dir=${build.dir}/generated
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+build.web.dir=${build.dir}/web
+build.web.excludes=${build.classes.excludes}
+client.urlPart=
+compile.jsps=false
+conf.dir=${source.root}/conf
+debug.classpath=${build.classes.dir}:${javac.classpath}
+debug.test.classpath=\
+    ${run.test.classpath}
+display.browser=true
+dist.dir=dist
+dist.ear.war=${dist.dir}/${war.ear.name}
+dist.javadoc.dir=${dist.dir}/javadoc
+dist.war=${dist.dir}/${war.name}
+excludes=
+file.reference.EEServer-dist=..\\..\\..\\..\\Users\\me2\\Documents\\NetBeansProjects\\EEServer\\dist\\
+file.reference.EEServer-ejb.jar=..\\..\\..\\..\\Users\\me2\\Documents\\NetBeansProjects\\EEServer\\build\\EEServer-ejb.jar
+file.reference.ejb4gwt.jar=..\\..\\..\\..\\..\\Program Files\\gwt-windows-1.5.3\\ejb4gwt.jar
+file.reference.gwt-dev-windows.jar=C:\\Program Files\\gwt-windows-1.5.3\\gwt-dev-windows.jar
+file.reference.gwt-servlet.jar=C:\\Program Files\\gwt-windows-1.5.3\\gwt-servlet.jar
+file.reference.gxt.jar=..\\..\\..\\..\\..\\Program Files\\gwt-windows-1.5.3\\gxt-1.2.2\\gxt.jar
+includes=**
+j2ee.deploy.on.save=false
+j2ee.platform=1.5
+j2ee.server.type=J2EE
+jar.compress=false
+javac.classpath=\
+    ${libs.GWT1.5.3.classpath}:\
+    ${file.reference.gwt-dev-windows.jar}:\
+    ${reference.EEServer-ejb.dist}:\
+    ${file.reference.ejb4gwt.jar}:\
+    ${libs.me2mako.classpath}:\
+    ${file.reference.gxt.jar}
+    ${file.reference.gwt-servlet.jar}:\
+    ${reference.EEServer-ejb.dist}:\
+    ${file.reference.EEServer-dist}:\
+    ${file.reference.EEServer-ejb.jar}
+    ${file.reference.gwt-servlet.jar}:\
+    ${reference.EEServer-ejb.dist}
+# Space-separated list of extra javac options
+javac.compilerargs=
+javac.debug=true
+javac.deprecation=false
+javac.source=1.5
+javac.target=1.5
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}:\
+    ${libs.junit.classpath}:\
+    ${libs.junit_4.classpath}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree=false
+javadoc.preview=true
+javadoc.private=false
+javadoc.splitindex=true
+javadoc.use=true
+javadoc.version=false
+javadoc.windowtitle=
+jspcompilation.classpath=${jspc.classpath}:${javac.classpath}
+lib.dir=${web.docbase.dir}/WEB-INF/lib
+persistence.xml.dir=${conf.dir}
+platform.active=default_platform
+project.EEServer-ejb=../../../../Users/me2/Documents/NetBeansProjects/EEServer/EEServer-ejb
+reference.EEServer-ejb.dist=${project.EEServer-ejb}/dist/EEServer-ejb.jar
+project.EEServer-ejb=../EEServer/EEServer-ejb
+reference.EEServer-ejb.dist=${project.EEServer-ejb}/dist/EEServer-ejb.jar
+resource.dir=setup
+run.test.classpath=\
+    ${javac.test.classpath}:\
+    ${build.test.classes.dir}
+# Space-separated list of JVM arguments used when running a class with a main method or a unit test
+# (you may also define separate properties like run-sys-prop.name=value instead of -Dname=value):
+runmain.jvmargs=
+source.encoding=UTF-8
+source.root=src
+src.dir=${source.root}/java
+test.src.dir=test
+war.content.additional=
+war.ear.name=EagleEyeInterface.war
+war.name=EagleEyeInterface.war
+web.docbase.dir=web
+webinf.dir=web/WEB-INF
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.tab-size=8
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.text-limit-width=80
+auxiliary.org-netbeans-modules-editor-indent.CodeStyle.usedProfile=default
+build.classes.dir=${build.web.dir}/WEB-INF/classes
+build.classes.excludes=**/*.java,**/*.form
+build.dir=build
+build.generated.dir=${build.dir}/generated
+build.test.classes.dir=${build.dir}/test/classes
+build.test.results.dir=${build.dir}/test/results
+build.web.dir=${build.dir}/web
+build.web.excludes=${build.classes.excludes}
+client.urlPart=
+compile.jsps=false
+conf.dir=${source.root}/conf
+debug.classpath=${build.classes.dir}:${javac.classpath}
+debug.test.classpath=\
+    ${run.test.classpath}
+display.browser=true
+dist.dir=dist
+dist.ear.war=${dist.dir}/${war.ear.name}
+dist.javadoc.dir=${dist.dir}/javadoc
+dist.war=${dist.dir}/${war.name}
+excludes=
+file.reference.EEServer-dist=..\\..\\..\\..\\Users\\me2\\Documents\\NetBeansProjects\\EEServer\\dist\\
+file.reference.EEServer-ejb.jar=..\\..\\..\\..\\Users\\me2\\Documents\\NetBeansProjects\\EEServer\\build\\EEServer-ejb.jar
+file.reference.ejb4gwt.jar=..\\..\\..\\..\\..\\Program Files\\gwt-windows-1.5.3\\ejb4gwt.jar
+file.reference.gwt-dev-windows.jar=C:\\Program Files\\gwt-windows-1.5.3\\gwt-dev-windows.jar
+file.reference.gwt-servlet.jar=C:\\Program Files\\gwt-windows-1.5.3\\gwt-servlet.jar
+file.reference.gxt.jar=..\\..\\..\\..\\..\\Program Files\\gwt-windows-1.5.3\\gxt-1.2.2\\gxt.jar
+includes=**
+j2ee.deploy.on.save=false
+j2ee.platform=1.5
+j2ee.server.type=J2EE
+jar.compress=false
+javac.classpath=\
+    ${libs.GWT1.5.3.classpath}:\
+    ${file.reference.gwt-dev-windows.jar}:\
+    <<<<<<< .mine:\
+    ${reference.EEServer-ejb.dist}:\
+    ${file.reference.ejb4gwt.jar}:\
+    ${libs.me2mako.classpath}:\
+    ${file.reference.gxt.jar}
+    ${file.reference.gwt-servlet.jar}:\
+    ${reference.EEServer-ejb.dist}:\
+    ${file.reference.EEServer-dist}:\
+    ${file.reference.EEServer-ejb.jar}
+    ${file.reference.gwt-servlet.jar}:\
+    ${reference.EEServer-ejb.dist}
+# Space-separated list of extra javac options
+javac.compilerargs=
+javac.debug=true
+javac.deprecation=false
+javac.source=1.5
+javac.target=1.5
+javac.test.classpath=\
+    ${javac.classpath}:\
+    ${build.classes.dir}:\
+    ${libs.junit.classpath}:\
+    ${libs.junit_4.classpath}
+javadoc.additionalparam=
+javadoc.author=false
+javadoc.encoding=${source.encoding}
+javadoc.noindex=false
+javadoc.nonavbar=false
+javadoc.notree=false
+javadoc.preview=true
+javadoc.private=false
+javadoc.splitindex=true
+javadoc.use=true
+javadoc.version=false
+javadoc.windowtitle=
+jspcompilation.classpath=${jspc.classpath}:${javac.classpath}
+lib.dir=${web.docbase.dir}/WEB-INF/lib
+persistence.xml.dir=${conf.dir}
+platform.active=default_platform
+project.EEServer-ejb=../../../../Users/me2/Documents/NetBeansProjects/EEServer/EEServer-ejb
+reference.EEServer-ejb.dist=${project.EEServer-ejb}/dist/EEServer-ejb.jar
+project.EEServer-ejb=../EEServer/EEServer-ejb
+reference.EEServer-ejb.dist=${project.EEServer-ejb}/dist/EEServer-ejb.jar
+resource.dir=setup
+run.test.classpath=\
+    ${javac.test.classpath}:\
+    ${build.test.classes.dir}
+# Space-separated list of JVM arguments used when running a class with a main method or a unit test
+# (you may also define separate properties like run-sys-prop.name=value instead of -Dname=value):
+runmain.jvmargs=-Xmx512M
+source.encoding=UTF-8
+source.root=src
+src.dir=${source.root}/java
+test.src.dir=test
+war.content.additional=
+war.ear.name=EagleEyeInterface.war
+war.name=EagleEyeInterface.war
+web.docbase.dir=web
+webinf.dir=web/WEB-INF

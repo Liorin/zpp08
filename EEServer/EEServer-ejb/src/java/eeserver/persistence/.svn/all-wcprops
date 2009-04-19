@@ -1,0 +1,71 @@
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/Repos/ZPP08_07/!svn/ver/289/EEServer/EEServer-ejb/src/java/eeserver/persistence
+END
+eeAssessment.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/Repos/ZPP08_07/!svn/ver/204/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeAssessment.java
+END
+eeNode.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Repos/ZPP08_07/!svn/ver/289/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeNode.java
+END
+eeNote.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Repos/ZPP08_07/!svn/ver/205/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeNote.java
+END
+eeStatusHistory.java
+K 25
+svn:wc:ra_dav:version-url
+V 101
+/Repos/ZPP08_07/!svn/ver/239/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeStatusHistory.java
+END
+eeProject.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/Repos/ZPP08_07/!svn/ver/283/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeProject.java
+END
+eeReport.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/Repos/ZPP08_07/!svn/ver/237/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeReport.java
+END
+eeAccount.java
+K 25
+svn:wc:ra_dav:version-url
+V 95
+/Repos/ZPP08_07/!svn/ver/277/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeAccount.java
+END
+eeEntity.java
+K 25
+svn:wc:ra_dav:version-url
+V 94
+/Repos/ZPP08_07/!svn/ver/237/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeEntity.java
+END
+eeUser.java
+K 25
+svn:wc:ra_dav:version-url
+V 92
+/Repos/ZPP08_07/!svn/ver/254/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeUser.java
+END
+eeResponsibility.java
+K 25
+svn:wc:ra_dav:version-url
+V 102
+/Repos/ZPP08_07/!svn/ver/254/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeResponsibility.java
+END
+eeInvitation.java
+K 25
+svn:wc:ra_dav:version-url
+V 98
+/Repos/ZPP08_07/!svn/ver/208/EEServer/EEServer-ejb/src/java/eeserver/persistence/eeInvitation.java
+END

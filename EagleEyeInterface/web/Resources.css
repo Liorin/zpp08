@@ -1,0 +1,438 @@
+* {
+  font-family: arial, helvetica, tahoma, sans-serif;
+}
+
+.x-theme-slate #demo-header {
+  background: #1E4176 url(images/bg/slate-hd-bg.gif) repeat-x scroll 0pt;
+}
+
+.drag-ok {
+  border: 1px solid green !important;
+  background-color: #e6eae7;
+}
+
+/* chooser */
+#img-chooser-dlg .details {
+  padding: 10px;
+  text-align: center;
+}
+
+#img-chooser-dlg .details-info {
+  border-top: 1px solid #cccccc;
+  font: 11px Arial, Helvetica, sans-serif;
+  margin-top: 5px;
+  padding-top: 5px;
+  text-align: left;
+}
+
+#img-chooser-dlg .details-info b {
+  color: #555555;
+  display: block;
+  margin-bottom: 4px;
+}
+
+#img-chooser-dlg .details-info span {
+  display: block;
+  margin-bottom: 5px;
+  margin-left: 5px;
+}
+
+#img-chooser-view {
+  background: white;
+  font: 11px Arial, Helvetica, sans-serif;
+}
+
+#img-chooser-view .thumb {
+  background: #dddddd;
+  padding: 3px;
+}
+
+#img-chooser-view .thumb img {
+  height: 60px;
+  width: 80px;
+}
+
+#img-chooser-view .thumb-wrap {
+  float: left;
+  margin: 4px;
+  margin-right: 0;
+  padding: 5px;
+}
+
+#img-chooser-view .thumb-wrap span {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+
+#img-chooser-view .x-view-over {
+  border: 1px solid #dddddd;
+  background: #efefef repeat-x left top;
+  padding: 4px;
+}
+
+#img-chooser-view .x-view-selected {
+  background: #DFEDFF;
+  border: 1px solid #6593cf;
+  padding: 4px;
+}
+
+#img-chooser-view .x-view-selected .thumb {
+  background: transparent;
+}
+
+#img-chooser-view .x-view-selected span {
+  color: #1A4D8F;
+}
+
+#img-chooser-view .loading-indicator {
+  font-size: 11px;
+  background-image: url('../../resources/images/grid/loading.gif');
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+/* list view */
+#images-view .x-panel-body {
+  background: white;
+  font: 11px Arial, Helvetica, sans-serif;
+}
+
+#images-view .thumb {
+  background: #dddddd;
+  padding: 3px;
+}
+
+#images-view .thumb img {
+  height: 60px;
+  width: 80px;
+}
+
+#images-view .thumb-wrap {
+  float: left;
+  margin: 4px;
+  margin-right: 0;
+  padding: 5px;
+}
+
+#images-view .thumb-wrap span {
+  display: block;
+  overflow: hidden;
+  text-align: center;
+}
+
+#images-view .x-view-over {
+  border: 1px solid #dddddd;
+  background: #efefef url(images/default/grid/row-over.gif) repeat-x left top;
+  padding: 4px;
+}
+
+#images-view .x-view-selected {
+  background: #eff5fb no-repeat right bottom;
+  border: 1px solid #99bbe8;
+  padding: 4px;
+}
+
+#images-view .x-view-selected .thumb {
+  background: transparent;
+}
+
+#images-view .loading-indicator {
+  font-size: 11px;
+  background-image: url('resources/images/default/grid/loading.gif');
+  background-repeat: no-repeat;
+  background-position: left;
+  padding-left: 20px;
+  margin: 10px;
+}
+
+/* totals grid */
+.x-grid3-body .x-grid3-td-cost {
+  background-color: #F1F2F4;
+}
+
+.x-grid3-summary-row {
+  background: #F1F2F4 none repeat scroll 0% 50%;
+  border-left: 1px solid #FFFFFF;
+  border-right: 1px solid #FFFFFF;
+  color: #333333;
+}
+
+.x-grid3-summary-row .x-grid3-cell-inner {
+  font-weight: bold;
+  padding-bottom: 4px;
+}
+
+.x-grid3-cell-inner {
+  font-family: "segoe ui", tahoma, arial, sans-serif;
+}
+
+#demo-header {
+  background: #1E4176 url(images/bg/hd-bg.gif) repeat-x scroll 0pt;
+  border: 0pt none;
+  padding-left: 3px;
+}
+
+#demo-theme {
+  float: right;
+  padding-top: 5px;
+  padding-right: 8px;
+}
+
+#demo-title {
+  color: white;
+  font-family: tahoma, arial, sans-serif;
+  font-size: 16px;
+  font-size-adjust: none;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: normal;
+  padding: 6 0 8 6px;
+}
+
+.sample-box {
+  float: left;
+  width: 135px;
+  margin: 0 5px;
+  text-align: center;
+  height: 114px;
+  cursor: default;
+  color: #444;
+  overflow: hidden;
+}
+
+.sample-over {
+  background: transparent url(images/thumbs/sample-over.gif) no-repeat;
+}
+
+.sample-over div {
+  color: #1860A8;
+}
+
+.sample-box img {
+  width: 120px;
+  height: 90px;
+  margin-bottom: 2px;
+  margin-top: 5px;
+}
+
+.sample-box div,#sample-box div a {
+  font-size: 10px;
+  line-height: 12px;
+  font-family: tahoma, arial, sans-serif;
+}
+
+.sample-box dt a {
+  border: 0 none !important;
+}
+
+.x-view-over {
+  background: #EFEFEF url(images/default/grid/row-over.gif) repeat-x scroll left top;
+  border: 1px solid #DDDDDD;
+  padding: 4px;
+}
+
+.x-view-selected {
+  border: 1px solid #99BBE8;
+  padding: 4px;
+}
+
+.x-view-selected .thumb {
+  background: transparent none repeat scroll 0%;
+}
+
+.green {
+  color: green;
+}
+
+.red {
+  color: red;
+}
+
+.text {
+  font-size: 12px;
+}
+
+.pad-text {
+  font-size: 12px;
+  padding: 5px;
+}
+
+.x-grid3-row-body p {
+  margin: 5px 5px 10px 5px !important;
+}
+
+.icon-app-side {
+  background: url(images/icons/application_side_list.png) no-repeat center left !important;
+}
+
+.icon-calendar {
+  background: url(images/icons/calendar.gif) no-repeat center left !important;
+}
+
+.icon-list-items {
+  background: url(images/icons/list-items.gif) no-repeat center left !important;
+}
+
+.icon-menu-show {
+  background: url(images/icons/menu-show.gif) no-repeat center left !important;
+}
+
+.icon-user-add {
+  background: url(images/icons/fam/user_add.gif) no-repeat center left !important;
+}
+
+.icon-user-delete {
+  background: url(images/icons/fam/user_delete.gif) no-repeat center left !important;
+}
+
+.icon-connect {
+  background: url(images/icons/fam/connect.gif) no-repeat center left !important;
+}
+
+.icon-accordion {
+  background: url(images/icons/accordion.gif) no-repeat center left !important;
+}
+
+.user {
+  background: url(images/icons/fam/user.gif) no-repeat center left !important;
+}
+
+.user-add {
+  background: url(images/icons/fam/user_add.gif) no-repeat center left !important;
+}
+
+.user-delete {
+  background: url(images/icons/fam/user_delete.gif) no-repeat center left !important;
+}
+
+.connect {
+  background: url(images/icons/fam/connect.gif) no-repeat center left !important;
+}
+
+.user-girl {
+  background: url(images/icons/fam/user_female.gif) no-repeat center left !important;
+}
+
+.user-kid {
+  background: url(images/icons/fam/user_green.gif) no-repeat center left !important;
+}
+
+.user-suit {
+  background: url(images/icons/fam/user_suit.gif) no-repeat center left !important;
+}
+
+.icon-filter {
+  background: url(images/icons/funnel.png) no-repeat center left !important;
+}
+
+.icon-form {
+  background: url(images/icons/application_form.png) no-repeat center left !important;
+}
+
+.icon-add {
+  background: url(images/icons/add.gif) no-repeat center left !important;
+}
+
+.icon-plugin {
+  background: url(images/icons/plugin.png) no-repeat center left !important;
+}
+
+.icon-table {
+  background: url(images/icons/table.png) no-repeat center left !important;
+}
+
+.icon-delete {
+  background: url(images/icons/delete.gif) no-repeat center left !important;
+}
+
+.icon-email {
+  background: url(images/icons/email.png) no-repeat center left !important;
+}
+
+.icon-email-add {
+  background: url(images/icons/email_add.png) no-repeat center left !important;
+}
+
+.icon-email-reply {
+  background: url(images/icons/email_go.png) no-repeat center left !important;
+}
+
+.icon-date-add {
+  background: url(images/icons/date-add.png) no-repeat center left !important;
+}
+
+.icon-contact {
+  background: url(images/icons/vcard.png) no-repeat center left !important;
+}
+
+.icon-contact-add {
+  background: url(images/icons/vcard_add.png) no-repeat center left !important;
+}
+
+.icon-shell {
+  background: url(images/icons/shell.gif) no-repeat center left !important;
+}
+
+.icon-page {
+  background: url(images/icons/document.gif) no-repeat center left !important;
+}
+
+.icon-page-java {
+  background: url(images/icons/page_white_cup.png) no-repeat center left !important;
+}
+
+.icon-page-html {
+  background: url(images/icons/page_white_code.png) no-repeat center left !important;
+}
+
+.icon-album {
+  background: url(images/icons/album.gif) no-repeat center left !important;
+}
+.icon-text {
+  background: url(images/icons/text.gif) no-repeat center left !important;
+}
+
+.icon-add-disabled {
+  background: url(images/icons/add.gif) no-repeat center left !important;
+}
+
+.icon-chart {
+  background: url(images/icons/chart.png) no-repeat center left !important;
+}
+
+.icon-list {
+  background: url(images/icons/list.gif) no-repeat center left !important;
+}
+
+.icon-feed {
+  background: url(images/icons/feed.gif) no-repeat center left !important;
+}
+
+.icon-info {
+  background: url(images/icons/information.png) no-repeat center left !important;
+}
+
+.icon-info-white {
+  background: url(images/icons/information-white.gif) no-repeat center left !important;
+}
+
+.icon-music {
+  background: url(images/icons/music.png) no-repeat center left !important;
+}
+
+.icon-printer {
+  background: url(images/icons/printer.png) no-repeat center left !important;
+}
+
+.icon-page-code {
+  background: url(images/icons/page.png) no-repeat 0 50% !important;
+}
+
+.icon-tabs {
+  background: url(images/icons/tabs.gif) no-repeat center left !important;
+}

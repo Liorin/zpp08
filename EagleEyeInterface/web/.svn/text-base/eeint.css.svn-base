@@ -1,0 +1,63 @@
+.DoubleBorder {
+    border-width: 3px;
+    border-style: double;
+}
+
+.InvalidEntry {
+    border-color: red;
+}
+
+.InvalidEntryWarning {
+    color: red;
+    font-weight: bold;
+}
+
+body {
+
+    background: #d3d2d1 !important;
+    padding: 8px !important;
+}
+
+#wrapper {
+    background: white;
+}
+
+.topPanel {
+    background: #26618d url(images/logo.gif) no-repeat left center;
+    color: white;
+}
+
+.sessionInfo {
+    color: #F3EFFF;
+    font-weight: bold;
+}
+
+.center {
+    text-align: center;
+}
+
+.enIcon { background: url(images/icons/fam/flags/gb.png) no-repeat
+    center left !important; }
+
+.plIcon { background: url(images/icons/fam/flags/pl.png) no-repeat
+    center left !important; }
+
+.deIcon { background: url(images/icons/fam/flags/de.png) no-repeat
+    center left !important; }
+
+.esIcon { background: url(images/icons/fam/flags/es.png) no-repeat
+    center left !important; }
+
+.icon-home {
+  background: url(images/icons/application_home.png) no-repeat center left !important;
+}
+
+.icon-projectsInProgress {
+  background: url(images/icons/application_form_edit.png) no-repeat center left !important;
+}
+.icon-projectsClosed {
+  background: url(images/icons/application_form_delete.png) no-repeat center left !important;
+}
+.icon-client {
+  background: url(images/icons/fam/user_gray.png) no-repeat center left !important;
+}

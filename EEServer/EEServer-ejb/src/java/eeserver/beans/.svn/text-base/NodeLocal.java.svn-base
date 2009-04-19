@@ -1,0 +1,64 @@
+/*
+ * To change this template, choose Tools | Templates
+ * and open the template in the editor.
+ */
+
+package eeserver.beans;
+
+import eeserver.common.NodeException;
+import eeserver.persistence.*;
+import java.sql.Date;
+import java.util.List;
+import javax.ejb.Local;
+
+/**
+ *
+ * @author maciek
+ */
+@Local
+public interface NodeLocal {
+
+    eeNode addNode(eeEntity project,Date timelimit, int type, Integer taskType,
+            Integer currentStatus, int priority) throws NodeException;
+
+    /**
+     * W zasadzie IMO usuwamy tylko
+     * błędne node'y. Jeśli coś zostało zaraportowana
+     * bądź mamy dzieci nie usuwamy
+     *
+     * @param node <- a node to delete
+     * @return boolean value, meaning the result (node must be childless ;)
+     * @throws eeserver.common.NodeException
+     */
+    Boolean removeNode(eeNode node) throws NodeException;
+
+    List<eeNode> listSubNodes(eeNode node);
+
+    /**
+     *
+     * @param node, dependent node
+     * @param after, the parent node
+     * @see Well, well USE CASES :)
+     * @throws eeserver.common.NodeException
+     */
+    void addDependencyAfter(eeNode node, eeNode after) throws NodeException;
+
+    /**
+     *
+     * @param node
+     * @return List of nodes that should be completed before node
+     * @throws eeserver.common.NodeException
+     */
+    List<eeNode> listDependenciesAfter(eeNode node) throws NodeException;
+
+    /**
+     *
+     * @param node
+     * @return List of nodes that can be fully processed only after
+     * completion of node
+     * @throws eeserver.common.NodeException
+     */
+    List<eeNode> listDependenciesBefore(eeNode node) throws NodeException;
+
+    void changeStatus(eeNode node, Integer status);
+}

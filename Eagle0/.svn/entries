@@ -1,0 +1,74 @@
+9
+
+dir
+238
+https://terminator.mimuw.edu.pl/Repos/ZPP08_07/Eagle0
+https://terminator.mimuw.edu.pl/Repos/ZPP08_07
+
+
+
+2008-11-25T11:21:43.471896Z
+39
+mk248364
+has-props
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3f978887-7a01-8148-909f-35a115f0e8fc
+
+test
+dir
+
+nbproject
+dir
+
+src
+dir
+
+web
+dir
+
+build.xml
+file
+
+
+
+
+2009-04-15T12:51:29.000000Z
+26685c5beaf3c2a2bfba707b3e387cc7
+2008-11-18T20:02:12.025057Z
+27
+mk248364
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+3178
+

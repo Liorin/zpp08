@@ -1,0 +1,71 @@
+9
+
+dir
+266
+https://terminator.mimuw.edu.pl/Repos/ZPP08_07/EEServer/EEServer-ejb/src/java/eeserver
+https://terminator.mimuw.edu.pl/Repos/ZPP08_07
+
+
+
+2009-04-17T16:11:33.038746Z
+265
+mz248366
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+3f978887-7a01-8148-909f-35a115f0e8fc
+
+EJB.gwt.xml
+file
+
+
+
+
+2009-04-15T12:51:21.000000Z
+50c1632fab783221dd6bc9f4f209e5c5
+2009-01-11T19:24:08.412607Z
+95
+mz248366
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+118
+
+persistence
+dir
+
+beans
+dir
+
+common
+dir
+

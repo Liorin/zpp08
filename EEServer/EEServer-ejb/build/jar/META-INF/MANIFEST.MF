@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.7.1
+Created-By: 11.0-b15 (Sun Microsystems Inc.)
+Class-Path: antlr-2.7.6.jar asm.jar asm-attrs.jar cglib-2.1.3.jar comm
+ ons-collections-2.1.1.jar commons-logging-1.1.jar dom4j-1.6.1.jar ehc
+ ache-1.2.3.jar jdbc2_0-stdext.jar jta.jar hibernate3.jar hibernate-to
+ ols.jar hibernate-annotations.jar hibernate-commons-annotations.jar h
+ ibernate-entitymanager.jar javassist.jar gxt-servlet.jar 
+
